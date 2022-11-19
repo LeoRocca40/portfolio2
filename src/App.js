@@ -1,5 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import AboutMe from './components/pages/about-me/AboutMe';
+import ContactMe from './components/pages/contact-me/ContactMe';
+import Footer from './components/pages/footer/Footer';
+import Header from './components/pages/header/Header';
+import Projects from './components/pages/header/projects/Projects';
+import Resume from './components/pages/header/resume/Resume';
+// import tailwind or bootstrap
 
 function App() {
   return (
@@ -18,6 +25,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Footer/>
     </div>
   );
 }
